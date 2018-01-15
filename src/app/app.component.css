@@ -1,0 +1,59 @@
+
+.navbar {
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4286f4;
+
+
+}
+li {
+  display: inline;
+  text-align: center;
+
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+
+li a {
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: none;
+font-size: 25px;
+
+}
+
+li a:hover:not(.active) {
+   color:#efb639;
+
+
+}
+  @media(min-width:300px) {
+
+  .fa-copyright {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+  ul li a {
+    font-size: 18px;
+  }
+
+}
+
+
+
+
